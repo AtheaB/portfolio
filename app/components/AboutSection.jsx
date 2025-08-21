@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 
 export default function AboutSection() {
   return (
-    <section className=" text-white py-20 px-6 md:px-16 flex flex-col md:flex-row items-center gap-12">
+    <section className="text-white py-20 px-6 md:px-16 flex flex-col md:flex-row items-center gap-12">
       {/* Left Section - Text */}
       <div className="md:w-1/2">
         <h3 className="uppercase text-sm tracking-widest text-gray-400">
