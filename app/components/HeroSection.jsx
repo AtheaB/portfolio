@@ -6,14 +6,14 @@ import { animate, motion } from 'framer-motion';
 
 const HeroSection = () => {
   return (
-    <section className='lg:py-16'>
+    <section>
         <div className="grid grid-cols-1 lg:grid-cols-12">
             <motion.div 
                 initial={{ opacity: 0, scale: 0.5 }} 
                 animate={{ opacity: 1, scale: 1 }} 
                 transition={{ duration: 0.5 }} 
                 className="col-span-8 place-self-center text-center sm:text-left justify-self-start">
-                <h1 className='text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold'>
+                <h1 className='text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold'>
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">Hello, I'm{" "}</span>
                     <br/>
                      <TypeAnimation
@@ -33,9 +33,9 @@ const HeroSection = () => {
                         />
                 </h1>
                 <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>Front-End Developer with 6+ years of experience building scalable, responsive, and user-friendly web applications.</p>
-                <div>
-                    <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500 bg-white hover:bg-slate-200 text-white cursor-pointer'>Hire Me</button>
-                    <button className='px-6 py-3 w-full sm:w-fit rounded-full hover:bg-slate-800 text-white border border-white mt-3 cursor-pointer'><span>Download CV</span></button>
+                <div className='mb-4'>
+                    <a href="#contact" className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500 bg-white hover:bg-slate-200 text-white cursor-pointer'>Hire Me</a>
+                    <a href='/assets/cv/Athea_Bayog_CV.pdf'  download="Athea_Bayog_CV.pdf" className='px-6 py-3 w-full sm:w-fit rounded-full hover:bg-slate-800 text-white border border-white mt-3 cursor-pointer'><span>Download CV</span></a>
                 </div>
             </motion.div>
             <motion.div 

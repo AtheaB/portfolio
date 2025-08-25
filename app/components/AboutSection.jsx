@@ -1,7 +1,6 @@
 "use client";
 import React from 'react'
 import Image from 'next/image'
-// About.tsx
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
@@ -9,7 +8,7 @@ import "swiper/css/pagination";
 
 export default function AboutSection() {
   return (
-    <section className="text-white py-20 px-6 md:px-16 flex flex-col md:flex-row items-center gap-12">
+    <section className="text-white sm:py-20 px-6 md:px-16 flex flex-col md:flex-row items-center gap-12">
       {/* Left Section - Text */}
       <div className="md:w-1/2">
         <h3 className="uppercase text-sm tracking-widest text-gray-400">
@@ -70,18 +69,8 @@ export default function AboutSection() {
         >
           <SwiperSlide>
             <Image
-              src="/assets/images/profile.png"
+              src="/assets/images/nature_explorer.jpg"
               alt="I Lift"
-              className="w-full h-80 object-cover"
-              width={300}
-                        height={300}
-            />
-            <p className="text-center mt-3 text-gray-300">I Lift</p>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/assets/images/profile.png"
-              alt="Nature Explorer"
               className="w-full h-80 object-cover"
               width={300}
                         height={300}
@@ -90,13 +79,23 @@ export default function AboutSection() {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/assets/images/profile.png"
-              alt="Coding Life"
+              src="/assets/images/coding_life.jpg"
+              alt="Nature Explorer"
               className="w-full h-80 object-cover"
               width={300}
                         height={300}
             />
             <p className="text-center mt-3 text-gray-300">Coding Life</p>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src="/assets/images/i_play.jpg"
+              alt="Coding Life"
+              className="w-full h-80 object-cover"
+              width={300}
+                        height={300}
+            />
+            <p className="text-center mt-3 text-gray-300">I Play</p>
           </SwiperSlide>
         </Swiper>
       </div>

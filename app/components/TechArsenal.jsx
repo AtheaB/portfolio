@@ -1,27 +1,26 @@
 "use client";
-import { FaReact, FaNodeJs, FaGitAlt, FaCloudflare } from "react-icons/fa";
-import { SiNextdotjs, SiRedux, SiTypescript, SiTailwindcss, SiBootstrap, SiSass, SiNestjs, SiGraphql, SiSupabase, SiPostgresql, SiSanity, SiStrapi, SiContentful, SiRemix } from "react-icons/si";
+import { FaReact, FaGitAlt } from "react-icons/fa";
+import { SiHtml5, SiCss3, SiSass, SiTailwindcss, SiJavascript, SiBootstrap, SiTypescript, SiDrupal, SiWordpress, SiNextdotjs } from "react-icons/si";
 
 const techStack = [
-  { name: "Next.js", icon: <SiNextdotjs className="text-white" /> },
-  { name: "React", icon: <FaReact className="text-sky-400" /> },
-  { name: "Remix", icon: <SiRemix className="text-purple-500" /> },
-  { name: "Redux", icon: <SiRedux className="text-purple-600" /> },
-  { name: "TypeScript", icon: <SiTypescript className="text-blue-500" /> },
-  { name: "Tailwind", icon: <SiTailwindcss className="text-cyan-400" /> },
+  // Front-End
+  { name: "HTML5", icon: <SiHtml5 className="text-orange-500" /> },
+  { name: "CSS3", icon: <SiCss3 className="text-blue-500" /> },
+  { name: "SASS", icon: <SiSass className="text-pink-500" /> },
+  { name: "Tailwind CSS", icon: <SiTailwindcss className="text-cyan-400" /> },
+  { name: "JavaScript", icon: <SiJavascript className="text-yellow-400" /> },
   { name: "Bootstrap", icon: <SiBootstrap className="text-purple-500" /> },
-  { name: "SCSS", icon: <SiSass className="text-pink-500" /> },
-  { name: "Node.js", icon: <FaNodeJs className="text-green-500" /> },
-  { name: "NestJS", icon: <SiNestjs className="text-red-500" /> },
-  { name: "GraphQL", icon: <SiGraphql className="text-pink-500" /> },
-  { name: "Supabase", icon: <SiSupabase className="text-green-400" /> },
-  { name: "PostgreSQL", icon: <SiPostgresql className="text-blue-500" /> },
-  { name: "Sanity", icon: <SiSanity className="text-red-600" /> },
-  { name: "Strapi", icon: <SiStrapi className="text-blue-400" /> },
-  { name: "Contentful", icon: <SiContentful className="text-blue-500" /> },
+  // Frameworks / Libraries
+  { name: "React.js", icon: <FaReact className="text-sky-400" /> },
+  { name: "Next.js", icon: <SiNextdotjs className="text-white" /> },
+  { name: "TypeScript", icon: <SiTypescript className="text-blue-500" /> },
+  // CMS / Platforms
+  { name: "Drupal", icon: <SiDrupal className="text-blue-600" /> },
+  { name: "WordPress", icon: <SiWordpress className="text-blue-700" /> },
+  // Tools
   { name: "Git", icon: <FaGitAlt className="text-orange-500" /> },
-  { name: "Cloudflare", icon: <FaCloudflare className="text-orange-400" /> },
 ];
+
 
 export default function TechArsenal() {
   return (

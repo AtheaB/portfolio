@@ -7,30 +7,30 @@ import { animate, motion, useInView } from 'framer-motion';
 const projectsData = [
     {
         id: 1,
-        title: "React Portfolio Website",
-        description: "Project 1 Description",
-        image: "/assets/images/profile.png",
-        tag: ["All", "Web"],
-        gitUrl: "/",
-        previewUrl: "/"
+        title: "GoHotels — Affordable Hotel Booking Platform",
+        description: "Designed a user-friendly frontend for GoHotels that presents hotel branches, promotional offers, blog content, and a smooth booking form.",
+        image: "/assets/images/projects/gohotels.png",
+        tag: ["All", "Frontend Projects"],
+        // gitUrl: "/",
+        previewUrl: "https://gohotels.ph/"
     },
     {
         id: 2,
-        title: "React Portfolio Website",
-        description: "Project 2 Description",
-        image: "/assets/images/profile.png",
-        tag: ["All", "Mobile"],
-        gitUrl: "/",
-        previewUrl: "/"
+        title: "Summit Hotels — Midscale Hotel & Resorts Website",
+        description: "Built a clean and navigable frontend for Summit Hotels, enabling users to explore properties, view offers, read blogs, and book stays effortlessly.",
+        image: "/assets/images/projects/summithotels.png",
+        tag: ["All", "Frontend Projects"],
+        // gitUrl: "/",
+        previewUrl: "https://summithotels.ph/"
     },
     {
         id: 3,
-        title: "React Portfolio Website",
-        description: "Project 3 Description",
-        image: "/assets/images/profile.png",
-        tag: ["All", "Web"],
-        gitUrl: "/",
-        previewUrl: "/"
+        title: "Kairos — UI/UX Web Design (Figma Prototype)",
+        description: "A modern and intuitive website prototype designed for Kairos using Figma. The design emphasizes clean layout and engaging visuals to optimize user flow.",
+        image: "/assets/images/projects/design_1.jpg",
+        tag: ["All", "UI/UX Design"],
+        // gitUrl: "/",
+        previewUrl: "https://www.figma.com/design/fQVjAczcmMlmC3ikbBv2pW/Design-UI-UX?node-id=0-1&m=dev&t=xH6C2MfMweOEWzDY-1https://www.figma.com/design/fQVjAczcmMlmC3ikbBv2pW/Design-UI-UX?node-id=0-1&p=fhttps://www.figma.com/design/fQVjAczcmMlmC3ikbBv2pW/Design-UI-UX?node-id=0-1&t=wlgPIZ0mriw3ZEkS-1"
     }
 ]
 
@@ -53,7 +53,7 @@ const ProjectsSection = () => {
     };
 
   return (
-    <section>
+    <section id='projects' className='scroll-mt-24'>
         <h2 className='text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12'>My Projects</h2>
         <div className='text-white flex flex-row justify-center items-center gap-2 py-6'>
             <ProjectTag 
@@ -63,13 +63,13 @@ const ProjectsSection = () => {
             />
             <ProjectTag 
                 onClick={handleTagChange} 
-                name="Web" 
-                isSelected={tag === "Web"} 
+                name="Frontend Projects" 
+                isSelected={tag === "Frontend Projects"} 
             />
             <ProjectTag 
                 onClick={handleTagChange} 
-                name="Mobile" 
-                isSelected={tag === "Mobile"}
+                name="UI/UX Design" 
+                isSelected={tag === "UI/UX Design"}
             />
         </div>
         <ul ref={ref} className='grid md:grid-cols-3 gap-8 md:gap-12'>
@@ -87,7 +87,7 @@ const ProjectsSection = () => {
                     description={project.description} 
                     imgUrl={project.image} 
                     tags={project}
-                    gitUrl={project.gitUrl}
+                    // gitUrl={project.gitUrl}
                     previewUrl={project.previewUrl}/> 
                 </motion.li>
             ))}
