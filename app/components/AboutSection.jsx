@@ -25,17 +25,16 @@ export default function AboutSection() {
           I'm <span className="font-medium text-white">Athea</span>, a
           passionate frontend developer focused on creating dynamic web
           experiences. From design to code, I enjoy solving complex problems
-          with clean and efficient solutions. My expertise spans{" "}
+          with clean and efficient solutions. My expertise lies in converting{" "}
+          <span className="text-secondary-400">Figma designs into pixel-perfect</span>{" "}
+          implementations using modern frameworks like{" "}
           <span className="text-secondary-400">React</span>,{" "}
-          <span className="text-secondary-400">Next.js</span>, and{" "}
-          <span className="text-secondary-400">TailwindCSS</span>, and I’m always
-          eager to learn more.
+          <span className="text-secondary-400">TypeScript</span>, and{" "}
+          <span className="text-secondary-400">Vue.js</span>, while continuously learning and adapting to new technologies.
         </p>
 
         <p className="mt-4 text-gray-300 leading-relaxed">
-          When I’m not immersed in work, I explore new ideas, design creative
-          UIs, or spend time at the gym. Life’s about balance, and I embrace
-          every part of it.
+          When I’m not immersed in work, I explore new ideas, design creative UIs, or dive into activities that keep me inspired. Life’s about balance, and I embrace every part of it.
         </p>
 
         <p className="mt-6 text-gray-400 italic">

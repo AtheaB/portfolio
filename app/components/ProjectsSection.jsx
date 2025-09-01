@@ -30,7 +30,16 @@ const projectsData = [
         image: "/assets/images/projects/design_1.jpg",
         tag: ["All", "UI/UX Design"],
         // gitUrl: "/",
-        previewUrl: "https://www.figma.com/design/fQVjAczcmMlmC3ikbBv2pW/Design-UI-UX?node-id=0-1&m=dev&t=xH6C2MfMweOEWzDY-1https://www.figma.com/design/fQVjAczcmMlmC3ikbBv2pW/Design-UI-UX?node-id=0-1&p=fhttps://www.figma.com/design/fQVjAczcmMlmC3ikbBv2pW/Design-UI-UX?node-id=0-1&t=wlgPIZ0mriw3ZEkS-1"
+        previewUrl: "https://www.figma.com/design/0jfutGbyDVgtKS9aPVFqqE/UI-UX?node-id=7-25&t=vgmEZDEbK80YwuF7-1"
+    },
+    {
+        id: 4,
+        title: "Wearit — UI/UX Web Design (Figma Prototype)",
+        description: "A modern, user-friendly website design for Wearit, created in Figma with clean layouts and engaging visuals for a seamless experience.",
+        image: "/assets/images/projects/wearit.jpg",
+        tag: ["All", "UI/UX Design"],
+        // gitUrl: "/",
+        previewUrl: "https://www.figma.com/design/0jfutGbyDVgtKS9aPVFqqE/UI-UX?node-id=0-1&t=vgmEZDEbK80YwuF7-1"
     }
 ]
 
