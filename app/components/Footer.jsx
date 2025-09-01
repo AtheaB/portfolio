@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Footer = () => {
   return (
     <footer className='footer border border-t-[#33353F] border-l-transparent border-r-transparent text-white'>
-        <div className='container p-4 flex justify-center align-middle gap-8'>
+        <div className='p-4 flex justify-center align-middle gap-8'>
             <span>
               <Image
                 src="/assets/images/my-logo.png"
