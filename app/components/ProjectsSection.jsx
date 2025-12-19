@@ -7,6 +7,16 @@ import { animate, motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "LokalChoice — Discover PlacesApproved by YourFavorite Vloggers! ",
+    description:
+      "Powered by vloggers and content creators. Find the best restaurants, cafés, and shops vouched for by people you trust.",
+    image: "/assets/images/projects/lokalchoice.png",
+    tag: ["All", "Frontend Projects"],
+    // gitUrl: "/",
+    previewUrl: "https://lokal-choice.vercel.app/",
+  },
+  {
+    id: 2,
     title: "GoHotels — Affordable Hotel Booking Platform",
     description:
       "Designed a user-friendly frontend for GoHotels that presents hotel branches, promotional offers, blog content, and a smooth booking form.",
@@ -16,7 +26,7 @@ const projectsData = [
     previewUrl: "https://gohotels.ph/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Summit Hotels — Midscale Hotel & Resorts Website",
     description:
       "Built a clean and navigable frontend for Summit Hotels, enabling users to explore properties, view offers, read blogs, and book stays effortlessly.",
@@ -26,7 +36,7 @@ const projectsData = [
     previewUrl: "https://summithotels.ph/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Kairos — UI/UX Web Design (Figma Prototype)",
     description:
       "A modern and intuitive website prototype designed for Kairos using Figma. The design emphasizes clean layout and engaging visuals to optimize user flow.",
@@ -37,7 +47,7 @@ const projectsData = [
       "https://www.figma.com/design/0jfutGbyDVgtKS9aPVFqqE/UI-UX?node-id=7-25&t=vgmEZDEbK80YwuF7-1",
   },
   {
-    id: 4,
+    id: 5,
     title: "Wearit — UI/UX Web Design (Figma Prototype)",
     description:
       "A modern, user-friendly website design for Wearit, created in Figma with clean layouts and engaging visuals for a seamless experience.",
@@ -48,7 +58,7 @@ const projectsData = [
       "https://www.figma.com/design/0jfutGbyDVgtKS9aPVFqqE/UI-UX?node-id=0-1&t=vgmEZDEbK80YwuF7-1",
   },
   {
-    id: 5,
+    id: 6,
     title: "E-commerce Webpage",
     description:
       "This project demonstrates a clean, maintainable, and scalable approach to front-end development, balancing design accuracy, responsive behavior, and code organization.",
